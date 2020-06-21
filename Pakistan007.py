@@ -58,7 +58,7 @@ Y='\033[1;93m'
 #Dev:TECH ABM
 #### LOGO ####
 logo = """
-         \033[1;91m███████╗░█████╗░██████╗░██╗██╗░░░██╗░█████╗░
+\033[1;91m███████╗░█████╗░██████╗░██╗██╗░░░██╗░█████╗░
 \033[1;92m██╔════╝██╔══██╗██╔══██╗██║╚██╗░██╔╝██╔══██╗
 \033[1;91m█████╗░░███████║██████╔╝██║░╚████╔╝░███████║
 \033[1;92m██╔══╝░░██╔══██║██╔══██╗██║░░╚██╔╝░░██╔══██║
@@ -81,10 +81,10 @@ logo = """
  \033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝
 
  \033[1;94m⊱══════════════════⊱═⊰DISCLAIMER⊱═⊰══════════════════⊰
- \033[1;91mWARNING :\033[1;93mUSE A FRESH ACCOUNT TO LOGIN, DO NOT USE OLD ACCOUNT LOGIN OTHERWISE YOUR ACCOUNT WILL BE BLOCK.
+ \033[1;91mWARNING :\033[1;93mUSE A FRESH ACCOUNT IF YOU LOGIN WITH FACEBOOK, USE OLD ACCOUDNT IF YOU LOGIN WITH TOKEN.
  \033[1;91mWIFI OR MOBILE DATA :\033[1;93mONLY MOBILE DATA USE FOR CLONING , WIFI USER CONNECT ANY PROXY.
  \033[1;91mID NOT FOUND PROBLEM :\033[1;93mCOPY TO PROFILE PHOTO USERNAME AND THEN PASTE IN TERMUX.
- \033[1;91mFACEBOOK :\033[1;93mIF YOU DON't HAVE MY UPDATE COMMANDS CONTACT ME ON FACEBOOK.
+ \033[1;91mMEHTOD LOGIN OLD ACCOUNT :\033[1;93mFIRST DOWNLOAD TOKEN APP AND OLD FACEBOOK ACCOUNT LOGIN IN TOKEN, YOU WILL SHOW CODE, COPY CODE AND TYPE 2 AND PASTE CODE AND LOGIN OLD ACCOUNT SUCCESSFULLY.
 """
 
 def tik():
@@ -244,8 +244,8 @@ def login1():
                 time.sleep(0.05)
 		print logo
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
-		jalan('\033[1;96m[♚]\x1b[1;91mDO NOT USE OLD ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
-		jalan('\033[1;96m[♚]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mUSE OLD ACCOUNT TO LOGIN IF YOU LOGIN WITH FACEBOOK\x1b[1;96m[✾]' )
+		jalan('\033[1;96m[✾]\x1b[1;91mUSE A FRESH/NEW ACCOUNT TO LOGIN\x1b[1;96m[✾]' )
 		id = raw_input('\033[1;96m[!!] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('\033[1;96m[!!] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		jalan("\033[1;96m⊱⋕⊰══════════════════════════════════════⊱⋕⊰") 
