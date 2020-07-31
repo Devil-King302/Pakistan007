@@ -76,7 +76,7 @@ logo = """
 	   \033[1;47m \033[1;31m OWNER : FARIYA KHAN \033[1;0m     
  \033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
  \033[1;95m║\033[1;92mCREATOR ║ \033[1;96m♤͜͡♤ FARIYA KHAN
- \033[1;95m║\033[1;92mFACEBOK ║ \033[1;96m♤͜͡♤ m.facebook.com/itzfariya786
+ \033[1;95m║\033[1;92mFACEBOK ║ \033[1;96m♤͜͡♤ m.facebook.com/faritricker007
  \033[1;95m║\033[1;92mHELPING ║ \033[1;96m♤͜͡♤ ANY HELP CONTACT ME ON FACEBOOK 
  \033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝
 
@@ -158,7 +158,7 @@ print """
 	   \033[1;47m \033[1;31m OWNER : FARIYA KHAN \033[1;0m     
  \033[1;95m╔═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╗
  \033[1;95m║\033[1;92mCREATOR ║ \033[1;96m♤͜͡♤ FARIYA KHAN
- \033[1;95m║\033[1;92mFACEBOK ║ \033[1;96m♤͜͡♤ m.facebook.com/itzfariya786
+ \033[1;95m║\033[1;92mFACEBOK ║ \033[1;96m♤͜͡♤ m.facebook.com/faritricker007
  \033[1;95m║\033[1;92mHELPING ║ \033[1;96m♤͜͡♤ ANY HELP CONTACT ME ON FACEBOOK 
  \033[1;95m╚═════\033[1;91m⸎══════════════\033[1;91m⸎══════════\033[1;91m⸎════════╝
 """
@@ -179,10 +179,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong password!"
-            os.system('xdg-open https://m.facebook.com/itzfariya786')
+            os.system('xdg-open https://m.facebook.com/faritricker007')
     else:
         print "Wrong username!"
-        os.system('xdg-open https://m.facebook.com/itzfariya786')
+        os.system('xdg-open https://m.facebook.com/faritricker007')
 
 ##### LICENSE #####
 #=================#
@@ -219,7 +219,7 @@ def pilih_login():
 	        os.system('xdg-open https://play.google.com/store/apps/details?id=com.proit.thaison.getaccesstokenfacebook')
 	        login()
 	elif peak =="4":
-		os.system('xdg-open https://m.facebook.com/itzfariya786')
+		os.system('xdg-open https://m.facebook.com/faritricker007')
 		login()
 	elif unikers =="5":
 		os.system('xdg-open https://github.com/Faritricker')
